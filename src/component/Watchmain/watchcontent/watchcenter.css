@@ -1,0 +1,63 @@
+.topcontentport{
+    height: 160px;
+    width: 700px;
+    background-color: rgba(82, 82, 82, 0.200);
+    border-radius: 10px;
+    
+}
+.colorchange{
+    color: rgb(5, 62, 231);
+}
+.scroll{
+
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.storeimg{
+    width: 40px;
+}
+.rightportcont{
+    height: 90px;
+    width: 360px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.rightportcont:hover{
+    color: white;
+}
+.storwatchcont{
+    display: grid;
+    font-size: 16px;
+
+    height: 80px;
+    width: 300px;
+    margin-left: -180px;
+    /* background-color: yellow; */
+}
+.storport1{
+    margin-left: 2px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 700px;
+    background-color: transparent;
+}
+.storport2{
+    height: 80px;
+    width: 330px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.storport2:hover{
+    background-color:rgba(255, 255, 255, 0.077) ;
+}
+.imgresstor{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 50px;
+}

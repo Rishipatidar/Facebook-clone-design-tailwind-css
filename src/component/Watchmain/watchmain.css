@@ -1,0 +1,142 @@
+.borderbtm{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.103);
+}
+
+.watchcent{
+    background-color: rgba(29, 29, 29, 0.877);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0px;
+}
+.widthwatch1{
+    width: 30vw;
+    margin-right: 20px;
+}
+.widthwatch2{
+    
+    margin-top: 20px;
+    width: 68vw;
+}
+
+
+/* Watch list name from api */
+.watchlport{
+    margin-left: 0px;
+height: 92vh;
+width: 360px;
+background-color: rgba(255, 255, 255, 0.103);
+overflow-y: scroll;
+}
+.watchhead{
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 26px;
+    font-weight: 700;
+}
+.watchfirst{
+    margin-top: 4px;
+    width: 360px;
+    height: 40px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.watchtophead{
+    height: 350px;
+}
+.watchsetting{
+margin-top: 4px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.203);
+    border-radius: 50px;
+}
+.watchsearch{
+    width: 360px;
+    height: 40px;
+}
+.editwatchserch{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.062);
+    color: white;
+}
+.editwatchserch::placeholder{
+    color: rgba(255, 255, 255, 0.288);
+}
+.watchsecond{
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.562);
+    /* margin-bottom: 12px; */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.watchsecond:hover{
+    background-color: rgba(255, 255, 255, 0.203);
+}
+
+.watchtopimg{
+    height: 30px;
+    width: 50px;
+}
+.lowerheadwatch{
+    height: 50px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    align-items: center;
+    color: #fff;
+}
+.lowerheadwatch1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.lowerheadwatch2{
+  height: 40px;
+  margin-left: 80px;
+  width: 80px;
+padding-top: 6px;
+  border-radius: 5px;
+}
+.lowerheadwatch2:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+}
+
+.lowerheadwatchlink{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: -4px;
+    color: royalblue;
+}
+.watchiconres{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.watchprofport{
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    height: 50px;
+    width: 330px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.watchprofport:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+}

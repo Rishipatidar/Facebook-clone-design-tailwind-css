@@ -1,0 +1,48 @@
+.cardarrange{
+    /* display: grid;
+    grid-template-rows: auto auto auto auto; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around !important;
+}
+.storycard{
+    margin-top: 2%;
+    height: 250px;
+    width: 42vw;
+    /* background-color:wheat ; */
+    padding: 0px !important;
+}
+
+.firstcard{
+    border-radius: 10%;
+    /* background-color: white; */
+    height: 200px;
+    width: 110px;
+ 
+}
+.profilecircle{
+    position: relative;
+    top: 5%;
+}
+.mainimage{
+    height: 100%;
+    width: 100%;
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.imgrescard{
+    height: 20px;
+    width: 100%;
+    border-radius: 20%;
+    /* border: 2px white solid; */
+    width: 20px;
+}
+.name{
+    margin-top: 14%;
+    /* height: 100%; */
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}

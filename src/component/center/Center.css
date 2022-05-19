@@ -1,0 +1,15 @@
+.centrealign{
+    width: 50vw;
+    height: 100vh;
+    overflow-x: visible;
+    /* background-color: rgba(67, 67, 67, 0.114); */
+}
+.scrolleffect{
+    height: 100%;
+    overflow-x: scroll;
+}
+.aligncentreport{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}

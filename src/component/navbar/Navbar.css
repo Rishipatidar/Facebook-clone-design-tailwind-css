@@ -1,0 +1,285 @@
+.navbarmain{
+    height: 60px;   
+    background-color: rgba(67, 67, 67, 0.514);
+}
+
+.p361ku9c{
+    fill: #ffffff;
+}
+.firstportionnav{
+    margin-top: 8px;
+    margin-left: 12px;
+display: flex;
+padding: 0.2%;
+}
+.searchboxwid1{
+    border-radius: 50px;
+    height: 42px;
+    width: 210px;
+    margin-left: 10px;
+    margin-top: -2px;
+    background-color: rgba(67,67,67,0.432);
+    outline: none;
+    border: none;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.705);
+}
+.searchboxwid1::placeholder{
+    color: rgba(255, 255, 255, 0.575);
+}
+.searchboxwid{
+    border-radius: 50px;
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 12px;
+    background-color: rgba(67,67,67,0.432);
+    outline: none;
+    border: none;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.705);
+}
+.searchboxwid text::placeholder{
+    /* background-color: rgba(67,67,67,0.632); */
+    margin-left: 5%;
+    
+}
+.adjust_centre_menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    align-items: center;
+    margin-left: 34px;
+    height: 60px;
+    width: 700px;
+}
+
+.adjust_centre_menu div svg{
+    fill: white;
+}
+.menumain {
+    fill: #fff;
+}
+.menuactive svg{
+
+    fill: royalblue;
+}
+.menunav :hover{
+    background-color: rgba(67,67,67,0.462);
+    border-radius: 10px;
+}
+.menuactive{
+    transition: .1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-bottom: 4px royalblue solid;
+    border-radius: 2px;
+}
+
+.menuactive :hover{
+    background-color: transparent;
+}
+.menumain{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2%; */
+    /* background-color: white; */
+}
+.right_sidetmenu{
+    height: 60px;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    padding: 8px;
+}
+.imgresmenu{
+ margin-left: 10px;
+ margin-top: 8px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.profilemenu{
+    display: flex;
+    border-radius: 50px;
+    height: 45px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.usernamepro{ 
+    height: 40px;
+   font-weight: 300;
+    padding-left: 10px;
+    padding-top: 12px;
+    color: white;
+   
+}
+.profilemenu:hover{
+    background-color: rgba(67,67,67,0.462);
+}
+
+.mainmenucircle{
+    margin-top:1px ;
+    margin-left: -20px;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(67,67,67,0.462);
+    cursor: pointer;
+}
+.mainmenucircle:hover{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(67,67,67,1);
+    color: royalblue;
+}
+
+
+
+/* Circle Menu 9 dot */
+
+.circlemenu{
+    /* clip-path: polygon(0 100%, 100% 99%, 100% 2%, 64% 2%, 52% 0, 39% 2%, 0 2%); */
+width: 600px;
+height: 600px;
+border-radius: 10px;
+background-color: rgba(67, 67, 67, 0.671);
+
+    position: absolute;
+    top: 62px;
+    right: 22px;
+    z-index: 1;
+}
+.Menuhead{
+    width: 600px;
+    height: 40px;
+    /* background-color: white; */
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+.Menufloatport{
+    overflow-y: scroll;
+    width: 580px;
+    height: 540px;
+}
+
+.Menufloatfirst{
+    width: 360px;
+    background-color: rgb(31, 31, 31);
+}
+.menucardopt{
+    width: 300px;
+    height: 30px;
+    background-color: thistle;
+}
+.menusubh{
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
+.iconstore{
+    height: 50px;
+    width: 50px;
+    
+}
+.iconsresmenu{
+    height: 40px;
+    width: 40px;
+    margin-right: 2px;
+}
+.submenuhead{
+    color: white;
+
+}
+.content{
+    margin-left: 6px;
+    margin-bottom: 8px;
+    height: 60px;
+    width: 300px;
+    
+}
+.menudes{
+    font-size: 12px;
+}
+.nodec{
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+}
+.nodec :hover{
+    color: rgba(255, 255, 255, 0.705);
+    
+}
+.hovereffect:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    border-radius: 10px;
+}
+.borderbottom{
+    border-bottom: 1px rgba(255, 255, 255, 0.274) solid;
+}
+.MenufloatSecond{
+    position: fixed;
+    right: 32px;
+    margin-left: 20px;
+    height: 500px;
+    width: 200px;
+    background-color: rgba(67, 67, 67, 0.971);
+}
+.borderbottom2{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.342);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.iconstoreright{
+    height: 30px;
+    width: 30px;
+}
+.iconsresrightmenu{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+}
+.contentright{
+    height: 45px;
+    width: 140px;
+    margin-top: 6px;
+}
+.nodecright{
+    height: 80px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.742);
+}
+.nodecright:hover{
+    color: white;
+}
+.submenuheadright{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 2px;
+    
+}
+.menudesright{
+    width: 340px;
+    font-size: 10px;
+    height: 25px;   
+}
+
+.MenufloatSecond h5{
+    margin-top: 4px;
+    color: white;
+    
+}
+
+/* Circle Menu Activity */
+
+.circlemenu{
+    display: none;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

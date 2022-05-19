@@ -1,0 +1,181 @@
+/* Birthday Portion */
+
+.birthday{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 60px;
+    width: 340px;
+    background-color: rgba(255, 255, 255, 0.158);
+    margin-top: 12px;
+    border-radius: 10px;
+}
+.birthday:hover{
+    background-color: rgba(255, 255, 255, 0.200);
+}
+.closebday{
+    margin-top: 12px;
+    position: absolute;
+    top: 72px;
+    right: 32px;
+    cursor: pointer;
+}
+.bdayimg{
+    margin-top: 6px;
+    margin-right: 4px;
+}
+.linkbday{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 6px;
+    text-decoration: none;
+}
+.notificationline{
+    color: rgba(255, 255, 255, 0.479);
+
+}
+
+
+/* Groups Portions */
+
+.Groups{
+    border-radius: 10px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.179);
+    width: 340px;
+    margin-top: 8px;
+}
+.grouplink{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.384);
+    align-items: center;
+    margin-top: 4px;
+}
+.aligntextgrp{
+    margin-top: 8px;
+}
+.aligntextgrp1{
+    font-weight: 700;
+    color:#fff;
+    font-size: 14px;
+}
+.aligntextgrp2{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.411);
+
+}
+.grpiconright{
+    height: 30px;
+    width: 30px;
+}
+.groupheaport{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+.closegrp{
+    position: relative;
+    right: -22px;
+}
+
+.grpbanner{
+    height: 150px;
+    width: 310px;
+    border-radius: 10px;
+}
+.grpbanner:hover{
+    background-color: rgba(255, 245, 238, 0.527);
+}
+.grptextalig{
+margin-top: -14px;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.589);
+}
+.grptextalig:hover{
+    color: rgba(255, 255, 255, 0.315);
+}
+.joingrp{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.637);
+}
+.joingrp:hover{
+    color: rgba(255, 255, 255, 0.87);
+}
+.texteditgrp{
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+}
+.texteditgrp:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+}
+
+
+/* -------------Convo---------------- */
+.borderchat{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.329);
+    margin-top: 4px;
+    width: 320px;
+}
+.chatportion{
+    margin-left: -10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 500px;
+    width: 340px;
+    background-color: rgba(255, 255, 255, 0.103);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: white;
+}
+.chathead{
+    height: 52px;
+    cursor: pointer;
+    width: 300px;
+    font-weight: 600;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+.chathead:hover{
+    background-color: rgba(255, 255, 255, 0.170);
+    border-radius: 10px;
+}
+.chaticonres{
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+}
+.chaticonres:hover{
+    background-color: rgba(255, 255, 255, 0.329);
+}
+.chatprofile{
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* --------------chat portion hover----------------------- */
+
+.chat2head{
+height: 100px;
+align-items: center;
+position: absolute;
+right: 300px;
+width: 300px;
+background-color: rosybrown;
+}
+.hoverchat{
+    height: 30px;
+    width: 30px;
+}

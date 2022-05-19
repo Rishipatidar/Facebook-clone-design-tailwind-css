@@ -1,0 +1,40 @@
+.leftbarscroll{
+    overflow: scroll;
+    height: 700px;
+    background-color: rgba(68, 67, 67, 0.537);
+}
+.profilecont{
+    background-color: rgba(02, 02, 02, 0.614);
+    height: 100vh;
+    width: 100vw;
+}
+.border-top{
+    border-top: 1px solid #fff !important;
+    
+}
+.hovermenu{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    border-radius: 2%  !important;
+    cursor: pointer !important;
+}
+.hovermenutext{
+    margin-top: 100px !important;
+    height: 40px !important;
+    width: 100px !important;
+   
+    width: 100% !important;
+    color: #fff !important;
+    
+}
+.hovermenu a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff !important;
+}
+.hovermenu:hover{
+    border-radius: 4% !important;
+    background-color: rgba(68, 67, 67, 0.537) !important;
+}
+.profdes{
+    border-radius: 50% !important;
+}

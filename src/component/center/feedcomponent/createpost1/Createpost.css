@@ -1,0 +1,89 @@
+.Createpostdes{
+    color: white !important;
+    border-color: white !important;
+    background-color: rgba(68, 67, 67, 0.637) !important;
+    width: 635px;
+    border-radius: 10px;
+}
+
+.livevideo:hover{
+background-color: rgba(168, 164, 164, 0.837);
+border-radius:10px ;
+}
+.liveportion{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px rgba(255, 255, 255, 0.404) solid;
+    margin-top: 3%;
+    
+}
+
+.imgeditcaption{
+    height:45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.aligncaption{
+    height: 50px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    padding: 2%;
+}
+.live{
+    transition: .1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.textalignlive{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+
+}
+.livevideo{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smile{
+    fill:#f7b928;
+}
+.smile svg{
+    height: 30px;
+    width: 35px;
+
+}
+/* .album{
+    height: 30px;
+    width: 35px;
+} */
+.album svg{
+    height: 30px;
+    width: 35px;
+}
+.live {
+    height: 30px;
+    width: 35px;
+    fill: #f3425f !important;
+}
+.Photo{
+    height: 30px;
+    width: 35px;
+
+}
+.captionsedit{
+    
+    background-color: rgba(68, 67, 67, 0.837) !important;
+    border-radius: 50px !important;
+    border: none;
+}
+.captionsedit::placeholder{
+    color: rgba(168, 164, 164, 0.837);
+    outline: none !important;
+}
